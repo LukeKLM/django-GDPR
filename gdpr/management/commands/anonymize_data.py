@@ -2,7 +2,7 @@ import math
 
 import pyprind
 from django.core.management.base import BaseCommand
-from utils import chunked_queryset_iterator
+from gdpr.utils import chunked_queryset_iterator
 from chamber.commands import ProgressBarStream
 
 from gdpr.anonymizers import DeleteModelAnonymizer
